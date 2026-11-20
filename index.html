@@ -24,21 +24,18 @@
   ul { padding-left: 22px; }
   a { color: var(--link); }
   .meta { color: var(--muted); margin-bottom: 24px; }
-  .lang { margin: 0 0 28px; }
   .summary { background: var(--box); border-radius: 12px; padding: 16px 20px; margin: 0 0 8px; }
   .summary ul { margin: 0; }
   .summary li:last-child { margin-bottom: 0; }
-  hr { border: 0; border-top: 1px solid var(--rule); margin: 56px 0; }
   footer { color: var(--muted); font-size: 0.9rem; }
 </style>
 </head>
 <body>
 <main>
 
-<article id="en" lang="en">
+<article>
   <h1>Wedr – Privacy Policy</h1>
   <p class="meta">Effective 20 November 2026</p>
-  <p class="lang"><a href="#hr">Hrvatska verzija ↓</a></p>
 
   <p>Wedr is a weather app and home-screen widget for Android. This policy explains what the
   app does with your information. In short, it uses your location only to show the weather for
@@ -121,98 +118,6 @@
   <p>Questions about this policy or the app can be sent by
   <a href="https://github.com/emanueldolo/wedr-privacy/issues">opening an issue here</a>, or
   by email to the developer address shown on Wedr's Google Play page.</p>
-</article>
-
-<hr>
-
-<article id="hr" lang="hr">
-  <h1>Wedr – Pravila privatnosti</h1>
-  <p class="meta">Na snazi od 20. studenoga 2026.</p>
-  <p class="lang"><a href="#en">English version ↑</a></p>
-
-  <p>Wedr je aplikacija za vremensku prognozu i widget za početni zaslon na Androidu. Ova
-  pravila objašnjavaju što aplikacija radi s vašim podacima. Ukratko, lokaciju koristi samo da
-  prikaže vrijeme tamo gdje ste, i nema korisničkih računa, oglasa, analitike ni praćenja.</p>
-
-  <div class="summary">
-    <ul>
-      <li>Bez korisničkog računa, oglasa, analitike, izvještaja o rušenju i praćenja.</li>
-      <li>Lokacija se koristi samo za dohvat vremena, a pružatelju vremenskih podataka stiže samo
-        zaokružena lokacija (oko 5 km).</li>
-      <li>Mikrofon, ako ga dopustite, sluša se samo na vašem mobitelu i nikad se ne snima niti
-        šalje.</li>
-      <li>Ništa o vama ne čuva se ni na jednom poslužitelju, ne prodaje se i ne dijeli za
-        oglašavanje.</li>
-    </ul>
-  </div>
-
-  <h2>Lokacija</h2>
-  <p>Uz vaše dopuštenje Wedr čita lokaciju uređaja kako bi prikazao vrijeme tamo gdje ste.
-  Lokacija se koristi ovako:</p>
-  <ul>
-    <li><strong>Vrijeme.</strong> Aplikacija šalje koordinate Wedrvom poslužitelju za vrijeme
-      (maloj usluzi na Cloudflareu). Poslužitelj ih zaokruži na mrežu od oko 5 km i za tu
-      zaokruženu točku pita <a href="https://openweathermap.org/">OpenWeather</a>. OpenWeather
-      nikad ne dobiva vašu točnu lokaciju ni vašu IP adresu. Poslužitelj ne sprema i ne bilježi
-      vašu lokaciju.</li>
-    <li><strong>Ime mjesta.</strong> Da bi prikazala ime vašeg mjesta, aplikacija koristi
-      Androidov ugrađeni geokoder, koji koordinate može poslati Googleu da pronađe ime mjesta.
-      Za to vrijede <a href="https://policies.google.com/privacy?hl=hr">Googleova pravila
-      privatnosti</a>.</li>
-    <li><strong>Na mobitelu.</strong> Zadnja prognoza, zajedno s lokacijom za koju je dohvaćena,
-      sprema se na uređaj kako bi je aplikacija i widget mogli odmah prikazati, i bez veze.</li>
-    <li><strong>Widget.</strong> Widget povremeno osvježava vrijeme koristeći zadnju lokaciju koju
-      mobitel već zna. Wedr ne traži pristup lokaciji u pozadini.</li>
-  </ul>
-  <p>Wedr možete koristiti s približnom umjesto precizne lokacije, a dopuštenje možete povući
-  bilo kada u postavkama mobitela.</p>
-
-  <h2>Mikrofon</h2>
-  <p>Kad pada snijeg, možete puhnuti u ekran i otpuhati snijeg. Za to, i samo ako to dopustite,
-  Wedr sluša mikrofon dok je taj ekran otvoren. Zvuk se analizira na vašem mobitelu, po nekoliko
-  milisekundi, samo da se prepozna puhanje. Nikad se ne snima, ne sprema i nikamo ne šalje.
-  Dopuštenje možete povući bilo kada u postavkama mobitela, a ostatak aplikacije radi i bez
-  njega.</p>
-
-  <h2>Podaci spremljeni na uređaju</h2>
-  <p>Wedr sprema zadnju prognozu (s njezinom lokacijom) i nekoliko postavki, npr. je li zvuk
-  uključen i koje ste obavijesti o novostima već vidjeli. Ti podaci ostaju na vašem uređaju. Ako
-  koristite Androidovu sigurnosnu kopiju, mogu biti uključeni u kopiju uređaja na vašem Google
-  računu, kao i kod drugih aplikacija. Deinstalacija Wedra ili brisanje njegovih podataka u
-  postavkama mobitela briše ih.</p>
-
-  <h2>Usluge na koje se Wedr oslanja</h2>
-  <ul>
-    <li><strong>Cloudflare</strong> pokreće Wedrv poslužitelj za vrijeme. Kao i svaka internetska
-      usluga, obrađuje vašu IP adresu kako bi isporučio odgovor.
-      <a href="https://www.cloudflare.com/privacypolicy/">Cloudflareova pravila privatnosti</a>.</li>
-    <li><strong>OpenWeather</strong> daje vremenske podatke i dobiva samo zaokruženu lokaciju.
-      <a href="https://openweather.co.uk/privacy-policy">OpenWeatherova pravila privatnosti</a>.</li>
-    <li><strong>Google</strong> pruža usluge lokacije i geokoder na Androidu te distribuira
-      aplikaciju preko Google Playa.
-      <a href="https://policies.google.com/privacy?hl=hr">Googleova pravila privatnosti</a>.</li>
-  </ul>
-  <p>Wedr ne prodaje vaše podatke i ne dijeli ih ni s kim za oglašavanje ni u bilo koju drugu
-  svrhu osim gore opisane.</p>
-
-  <h2>Djeca</h2>
-  <p>Wedr je opća aplikacija za vremensku prognozu. Svjesno ne prikuplja osobne podatke ni od
-  koga, uključujući djecu.</p>
-
-  <h2>Vaši izbori i prava</h2>
-  <p>Budući da Wedr ne čuva podatke o vama ni na jednom poslužitelju, nema ničega o vama što bi
-  se na zahtjev moglo dati na uvid, ispraviti ili obrisati. Kontrolu imate na svom mobitelu:
-  možete odbiti ili povući dopuštenja za lokaciju i mikrofon, obrisati podatke aplikacije ili je
-  deinstalirati.</p>
-
-  <h2>Izmjene</h2>
-  <p>Ako se ova pravila promijene, nova verzija bit će objavljena na ovoj stranici s novim
-  datumom stupanja na snagu.</p>
-
-  <h2>Kontakt</h2>
-  <p>Pitanja o ovim pravilima ili aplikaciji možete poslati
-  <a href="https://github.com/emanueldolo/wedr-privacy/issues">otvaranjem issuea ovdje</a> ili
-  e-poštom na adresu developera navedenu na Google Play stranici Wedra.</p>
 </article>
 
 <footer><p>Wedr · <a href="https://openweathermap.org/">Weather data provided by OpenWeather</a></p></footer>
