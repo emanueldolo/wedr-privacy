@@ -53,8 +53,8 @@
   </div>
 
   <h2>Location</h2>
-  <p>With your permission, Wedr reads your device's location to show the weather where you
-  are. The location is used as follows:</p>
+  <p>With your permission, Wedr reads your device's approximate location (it never asks for
+  precise location) to show the weather where you are. The location is used as follows:</p>
   <ul>
     <li><strong>Weather.</strong> The app sends the coordinates to Wedr's own weather server
       (a small service run on Cloudflare). That server rounds them to a grid of about 5 km and
@@ -70,8 +70,8 @@
     <li><strong>Widget.</strong> The widget refreshes the weather from time to time using the last
       location your phone already knows. Wedr does not ask for background location access.</li>
   </ul>
-  <p>You can use Wedr with approximate location instead of precise location, and you can
-  withdraw the permission at any time in your phone's settings.</p>
+  <p>If you don't allow location, Wedr shows no weather and asks for it instead; it never guesses
+  where you are. You can withdraw the permission at any time in your phone's settings.</p>
 
   <h2>Microphone</h2>
   <p>On snowy days you can blow at the screen to blow the snow away. For this, and only if you
@@ -81,9 +81,10 @@
   settings; the rest of the app works without it.</p>
 
   <h2>Data stored on your device</h2>
-  <p>Wedr saves the last weather (with its location) and two settings: whether sound is on and
-  which "what's new" notes you have seen. The weather and its location stay on your device. If
-  you use Android's backup, only the two settings are included in your device backup to your
+  <p>Wedr saves the last weather (with its location), whether it has already asked for location,
+  and two settings: whether sound is on and which "what's new" notes you have seen. Everything
+  except the two settings stays on your device. If you use Android's backup, only the two
+  settings are included in your device backup to your
   Google account, or copied when you move to a new phone, so they carry over. Uninstalling Wedr,
   or clearing its data in your phone's settings, deletes all of it.</p>
 
