@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wedro – Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Wedro weather app for Android.">
+<style>
+  :root {
+    --bg: #fbfaf8; --text: #1f2328; --muted: #5d636b; --rule: #e3e0db; --link: #1f5fbf; --box: #f1eee9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15171a; --text: #e6e6e6; --muted: #a0a6ad; --rule: #2c3036; --link: #7fb0ff; --box: #1e2125; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.25rem; margin: 36px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; }
+  a { color: var(--link); }
+  .meta { color: var(--muted); margin-bottom: 24px; }
+  .lang { margin: 0 0 28px; }
+  .summary { background: var(--box); border-radius: 12px; padding: 16px 20px; margin: 0 0 8px; }
+  .summary ul { margin: 0; }
+  .summary li:last-child { margin-bottom: 0; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 56px 0; }
+  footer { color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<article id="en" lang="en">
+  <h1>Wedro – Privacy Policy</h1>
+  <p class="meta">Effective 20 November 2026</p>
+  <p class="lang"><a href="#hr">Hrvatska verzija ↓</a></p>
+
+  <p>Wedro is a weather app and home-screen widget for Android. This policy explains what the
+  app does with your information. In short, it uses your location only to show the weather for
+  where you are, and it has no accounts, ads, analytics or tracking.</p>
+
+  <div class="summary">
+    <ul>
+      <li>No account, no ads, no analytics, no crash reporting, no tracking.</li>
+      <li>Your location is used only to get the weather, and only a rounded position (about 5 km)
+        reaches the weather provider.</li>
+      <li>The microphone, if you allow it, is listened to on your phone only and is never recorded
+        or sent anywhere.</li>
+      <li>Nothing about you is stored on any server, sold or shared for advertising.</li>
+    </ul>
+  </div>
+
+  <h2>Location</h2>
+  <p>With your permission, Wedro reads your device's location to show the weather where you
+  are. The location is used as follows:</p>
+  <ul>
+    <li><strong>Weather.</strong> The app sends the coordinates to Wedro's own weather server
+      (a small service run on Cloudflare). That server rounds them to a grid of about 5 km and
+      asks <a href="https://openweathermap.org/">OpenWeather</a> for the weather at that rounded
+      point. OpenWeather never receives your exact position or your IP address. The server does
+      not store or log your location.</li>
+    <li><strong>City name.</strong> To show the name of your town, the app uses Android's built-in
+      geocoder, which may send the coordinates to Google to look up the place name. This is
+      covered by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
+    <li><strong>On your phone.</strong> The last weather, together with the location it was fetched
+      for, is saved on your device so the app and the widget can show it straight away and
+      without a connection.</li>
+    <li><strong>Widget.</strong> The widget refreshes the weather from time to time using the last
+      location your phone already knows. Wedro does not ask for background location access.</li>
+  </ul>
+  <p>You can use Wedro with approximate location instead of precise location, and you can
+  withdraw the permission at any time in your phone's settings.</p>
+
+  <h2>Microphone</h2>
+  <p>On snowy days you can blow at the screen to blow the snow away. For this, and only if you
+  allow it, Wedro listens to the microphone while that screen is open. The sound is analysed on
+  your phone, a few milliseconds at a time, only to tell whether you are blowing. It is never
+  recorded, saved or sent anywhere. You can withdraw the permission at any time in your phone's
+  settings; the rest of the app works without it.</p>
+
+  <h2>Data stored on your device</h2>
+  <p>Wedro saves the last weather (with its location) and a few settings, such as whether sound
+  is on and which "what's new" notes you have seen. This data stays on your device. If you use
+  Android's backup, it may be included in your device backup to your Google account, as for
+  other apps. Uninstalling Wedro, or clearing its data in your phone's settings, deletes it.</p>
+
+  <h2>Services Wedro relies on</h2>
+  <ul>
+    <li><strong>Cloudflare</strong> runs Wedro's weather server. Like any internet service, it
+      handles your IP address to deliver the response.
+      <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>.</li>
+    <li><strong>OpenWeather</strong> provides the weather data and receives only the rounded
+      location. <a href="https://openweather.co.uk/privacy-policy">OpenWeather Privacy Policy</a>.</li>
+    <li><strong>Google</strong> provides location services and the geocoder on Android, and
+      distributes the app through Google Play.
+      <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+  </ul>
+  <p>Wedro does not sell your information and does not share it with anyone for advertising or
+  any other purpose beyond what is described above.</p>
+
+  <h2>Children</h2>
+  <p>Wedro is a general weather app. It does not knowingly collect personal information from
+  anyone, including children.</p>
+
+  <h2>Your choices and rights</h2>
+  <p>Because Wedro keeps no information about you on any server, there is nothing held about you
+  that could be accessed, corrected or deleted on request. You stay in control on your phone:
+  you can deny or withdraw the location and microphone permissions, clear the app's data, or
+  uninstall it.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published on this page with a new
+  effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or the app can be sent by
+  <a href="https://github.com/emanueldolo/wedro-privacy/issues">opening an issue here</a>, or
+  by email to the developer address shown on Wedro's Google Play page.</p>
+</article>
+
+<hr>
+
+<article id="hr" lang="hr">
+  <h1>Wedro – Pravila privatnosti</h1>
+  <p class="meta">Na snazi od 20. studenoga 2026.</p>
+  <p class="lang"><a href="#en">English version ↑</a></p>
+
+  <p>Wedro je aplikacija za vremensku prognozu i widget za početni zaslon na Androidu. Ova
+  pravila objašnjavaju što aplikacija radi s vašim podacima. Ukratko, lokaciju koristi samo da
+  prikaže vrijeme tamo gdje ste, i nema korisničkih računa, oglasa, analitike ni praćenja.</p>
+
+  <div class="summary">
+    <ul>
+      <li>Bez korisničkog računa, oglasa, analitike, izvještaja o rušenju i praćenja.</li>
+      <li>Lokacija se koristi samo za dohvat vremena, a pružatelju vremenskih podataka stiže samo
+        zaokružena lokacija (oko 5 km).</li>
+      <li>Mikrofon, ako ga dopustite, sluša se samo na vašem mobitelu i nikad se ne snima niti
+        šalje.</li>
+      <li>Ništa o vama ne čuva se ni na jednom poslužitelju, ne prodaje se i ne dijeli za
+        oglašavanje.</li>
+    </ul>
+  </div>
+
+  <h2>Lokacija</h2>
+  <p>Uz vaše dopuštenje Wedro čita lokaciju uređaja kako bi prikazao vrijeme tamo gdje ste.
+  Lokacija se koristi ovako:</p>
+  <ul>
+    <li><strong>Vrijeme.</strong> Aplikacija šalje koordinate Wedrovom poslužitelju za vrijeme
+      (maloj usluzi na Cloudflareu). Poslužitelj ih zaokruži na mrežu od oko 5 km i za tu
+      zaokruženu točku pita <a href="https://openweathermap.org/">OpenWeather</a>. OpenWeather
+      nikad ne dobiva vašu točnu lokaciju ni vašu IP adresu. Poslužitelj ne sprema i ne bilježi
+      vašu lokaciju.</li>
+    <li><strong>Ime mjesta.</strong> Da bi prikazala ime vašeg mjesta, aplikacija koristi
+      Androidov ugrađeni geokoder, koji koordinate može poslati Googleu da pronađe ime mjesta.
+      Za to vrijede <a href="https://policies.google.com/privacy?hl=hr">Googleova pravila
+      privatnosti</a>.</li>
+    <li><strong>Na mobitelu.</strong> Zadnja prognoza, zajedno s lokacijom za koju je dohvaćena,
+      sprema se na uređaj kako bi je aplikacija i widget mogli odmah prikazati, i bez veze.</li>
+    <li><strong>Widget.</strong> Widget povremeno osvježava vrijeme koristeći zadnju lokaciju koju
+      mobitel već zna. Wedro ne traži pristup lokaciji u pozadini.</li>
+  </ul>
+  <p>Wedro možete koristiti s približnom umjesto precizne lokacije, a dopuštenje možete povući
+  bilo kada u postavkama mobitela.</p>
+
+  <h2>Mikrofon</h2>
+  <p>Kad pada snijeg, možete puhnuti u ekran i otpuhati snijeg. Za to, i samo ako to dopustite,
+  Wedro sluša mikrofon dok je taj ekran otvoren. Zvuk se analizira na vašem mobitelu, po nekoliko
+  milisekundi, samo da se prepozna puhanje. Nikad se ne snima, ne sprema i nikamo ne šalje.
+  Dopuštenje možete povući bilo kada u postavkama mobitela, a ostatak aplikacije radi i bez
+  njega.</p>
+
+  <h2>Podaci spremljeni na uređaju</h2>
+  <p>Wedro sprema zadnju prognozu (s njezinom lokacijom) i nekoliko postavki, npr. je li zvuk
+  uključen i koje ste obavijesti o novostima već vidjeli. Ti podaci ostaju na vašem uređaju. Ako
+  koristite Androidovu sigurnosnu kopiju, mogu biti uključeni u kopiju uređaja na vašem Google
+  računu, kao i kod drugih aplikacija. Deinstalacija Wedra ili brisanje njegovih podataka u
+  postavkama mobitela briše ih.</p>
+
+  <h2>Usluge na koje se Wedro oslanja</h2>
+  <ul>
+    <li><strong>Cloudflare</strong> pokreće Wedrov poslužitelj za vrijeme. Kao i svaka internetska
+      usluga, obrađuje vašu IP adresu kako bi isporučio odgovor.
+      <a href="https://www.cloudflare.com/privacypolicy/">Cloudflareova pravila privatnosti</a>.</li>
+    <li><strong>OpenWeather</strong> daje vremenske podatke i dobiva samo zaokruženu lokaciju.
+      <a href="https://openweather.co.uk/privacy-policy">OpenWeatherova pravila privatnosti</a>.</li>
+    <li><strong>Google</strong> pruža usluge lokacije i geokoder na Androidu te distribuira
+      aplikaciju preko Google Playa.
+      <a href="https://policies.google.com/privacy?hl=hr">Googleova pravila privatnosti</a>.</li>
+  </ul>
+  <p>Wedro ne prodaje vaše podatke i ne dijeli ih ni s kim za oglašavanje ni u bilo koju drugu
+  svrhu osim gore opisane.</p>
+
+  <h2>Djeca</h2>
+  <p>Wedro je opća aplikacija za vremensku prognozu. Svjesno ne prikuplja osobne podatke ni od
+  koga, uključujući djecu.</p>
+
+  <h2>Vaši izbori i prava</h2>
+  <p>Budući da Wedro ne čuva podatke o vama ni na jednom poslužitelju, nema ničega o vama što bi
+  se na zahtjev moglo dati na uvid, ispraviti ili obrisati. Kontrolu imate na svom mobitelu:
+  možete odbiti ili povući dopuštenja za lokaciju i mikrofon, obrisati podatke aplikacije ili je
+  deinstalirati.</p>
+
+  <h2>Izmjene</h2>
+  <p>Ako se ova pravila promijene, nova verzija bit će objavljena na ovoj stranici s novim
+  datumom stupanja na snagu.</p>
+
+  <h2>Kontakt</h2>
+  <p>Pitanja o ovim pravilima ili aplikaciji možete poslati
+  <a href="https://github.com/emanueldolo/wedro-privacy/issues">otvaranjem issuea ovdje</a> ili
+  e-poštom na adresu developera navedenu na Google Play stranici Wedra.</p>
+</article>
+
+<footer><p>Wedro · <a href="https://openweathermap.org/">Weather data provided by OpenWeather</a></p></footer>
+</main>
+</body>
+</html>
